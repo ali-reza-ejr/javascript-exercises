@@ -1,4 +1,6 @@
+    const String = "hey"
 const repeatString = function() {
+    String.repeat(4)
 
 };
 
