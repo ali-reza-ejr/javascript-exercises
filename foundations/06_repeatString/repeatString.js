@@ -1,14 +1,13 @@
-const repeatString = function(word, times) {
+const repeatString = function(word, number) {
 
-// 1. Create your "holding container" variable here
 let finalResult = "";
 
-// 2. Write your loop here to repeat the action
-for (let i = 0; i < times; i++){
+if (number < 0) return "ERROR";
+
+for (let i = 0; i < number; i++){
 finalResult += word;
 }
 
-// 3. Return your final result here
 return finalResult;
 };
 
